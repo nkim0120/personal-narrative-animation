@@ -27,6 +27,4 @@ My animation showcases players and teams of one of my favorite sports, soccer. F
 
 ## Image Filter Analysis
 
-Choose at least 2 filters used in your animation to explain how the pixels are modified. If you created a new image filter that was not one of the ones from this unit, make sure to explain and analyze that filter(s) before choosing ones that came from this unit.
-
 In my animation, two filters that I used were random() and applySepia(). The random() method filter was one I created on my own; it sets all of the pixels' RGB values to random integers, still between 0 and 255 of course. The resulting image is a mess of randomly colored pixels, very similar to a static screen. The applySepia() filter was from this unit; the method modifies the pixels by setting each of the pixels' RGB values to the sum of the current RGB values multiplied by specific doubles. The resulting image is a warm-toned, brownish version of the image that resembles photography during the 1800s.
