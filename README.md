@@ -15,28 +15,18 @@ Implement algorithms – Implement one or more algorithms that use loops and log
 
 ## UML Diagram
 
-Put an image of your UML Diagram here. Upload the image of your UML Diagram to your repository, then use the Markdown syntax to insert your image here. Make sure your image file name is one work, otherwise it might not properly get displayed on this README.
-
-![UML Diagram for my project](nameOfImageFileHere.png)
+![UML Diagram for my project](newUMLdiagram.png)
 
 ## Video
 
-Record a short video of your story to display here on your README. You can do this by:
-
-- Screen record your project running on Code.org.
-- Upload that recording to YouTube.
-- Take a thumbnail for your image.
-- Upload the thumbnail image to your repo.
-- Use the following markdown
-
-[![Thumbnail for my projet](nameOfThumbnail.png)](youtube-URL-here)
+[![Thumbnail for my project](u5projthumbnail.webp)](https://youtu.be/f_tlLgHs_zA)
 
 ## Story Description
 
-Write a description of the story that your animation showcases. Give additional context for your story here in the case your animation is more abstract and only has images and little text. Lastly, include what data in your project is represented in 2D arrays and how those directly relate to the story your animation showcases.
-
-My animation showcases players and teams of my favorite sport, soccer. First, it creates images for the top three teams of the Premier League
+My animation showcases players and teams of one of my favorite sports, soccer. First, it displays the logos of the top three teams of the Premier League (Arsenal F.C., Manchester City F.C., and Aston Villa F.C.) and displays images of each team's top three players. In the second scene, the logos of the top teams that have qualified for the upcoming 2026 World Cup are drawn. I chose the three best teams from the three most competitive continents (Europe, Africa, and South America) and sorted them by their continent. Both the players from the Premier League in the first scene and the World Cup teams in the second scene are stored in and accessible from 2D arrays. In the players 2D array, the rows represent the Premier League teams and the columns represent the players in the teams. In the (World Cup) teams 2D array, which is separate from the Premier League teams, the rows represent the continents and the columns represent the World Cup teams.
 
 ## Image Filter Analysis
 
 Choose at least 2 filters used in your animation to explain how the pixels are modified. If you created a new image filter that was not one of the ones from this unit, make sure to explain and analyze that filter(s) before choosing ones that came from this unit.
+
+In my animation, two filters that I used were random() and applySepia(). The random() method filter was one I created on my own; it sets all of the pixels' RGB values to random integers, still between 0 and 255 of course. The resulting image is a mess of randomly colored pixels, very similar to a static screen. The applySepia() filter was from this unit; the method modifies the pixels by setting each of the pixels' RGB values to the sum of the current RGB values multiplied by specific doubles. The resulting image is a warm-toned, brownish version of the image that resembles photography during the 1800s.
